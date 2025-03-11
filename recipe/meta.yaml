@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_scheduler-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyter_scheduler-{{ version }}.tar.gz
   sha256: ed526e636449c93fa7c8a2b2be5551c0669e21fdac6e2092f6345fb5786a5d54
 
 build:
   noarch: python
-  number: 1
+  number: 2
 
 outputs:
   - name: {{ name }}
